@@ -6923,7 +6923,7 @@ var $author$project$Types$unitPeriod = function (u) {
 	return ' (' + (function () {
 		switch (u.$) {
 			case 'I':
-				return '17th Century';
+				return 'Early Middle Ages';
 			case 'II':
 				return 'Period of Salutary Neglect';
 			case 'III':
