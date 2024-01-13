@@ -6558,6 +6558,13 @@ var $elm$html$Html$Attributes$style = $elm$virtual_dom$VirtualDom$style;
 var $elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var $elm$html$Html$text = $elm$virtual_dom$VirtualDom$text;
 var $author$project$Types$Back = {$: 'Back'};
+var $elm$core$Basics$abs = function (n) {
+	return (n < 0) ? (-n) : n;
+};
+var $author$project$Types$formatYear = function (y) {
+	return (y > 0) ? $elm$core$String$fromInt(y) : ($elm$core$String$fromInt(
+		$elm$core$Basics$abs(y)) + ' B.C.');
+};
 var $elm$html$Html$h3 = _VirtualDom_node('h3');
 var $author$project$Main$viewEnded = F2(
 	function (i, listEvents) {
@@ -6606,7 +6613,7 @@ var $author$project$Main$viewEnded = F2(
 										_List_fromArray(
 											[
 												$elm$html$Html$text(
-												$elm$core$String$fromInt(e.date))
+												$author$project$Types$formatYear(e.date))
 											])),
 										A2(
 										$elm$html$Html$button,
@@ -6747,7 +6754,7 @@ var $author$project$Main$viewTimeline = function (listEvents) {
 						_List_fromArray(
 							[
 								$elm$html$Html$text(
-								$elm$core$String$fromInt(e.date))
+								$author$project$Types$formatYear(e.date))
 							])),
 						A2(
 						$elm$html$Html$button,

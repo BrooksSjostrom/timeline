@@ -295,7 +295,7 @@ viewTimeline listEvents =
                         , style "margin" "10px"
                         , style "border-style" "solid"]
                         [ h3 [] [ text e.name ]
-                        , div [] [ text (String.fromInt e.date) ]
+                        , div [] [ text (formatYear e.date) ]
                         , button [ onClick (LearnMore e) ] [ text "learn more" ]
                         ]
                 )
@@ -367,7 +367,7 @@ viewEnded i listEvents =
                 (\e ->
                     div [ style "border-style" "solid" ]
                         [ h3 [] [ text e.name ]
-                        , div [] [ text (String.fromInt e.date) ]
+                        , div [] [ text (formatYear e.date) ]
                         , button [ onClick (LearnMore e) ] [ text "learn more" ]
                         ]
                 )

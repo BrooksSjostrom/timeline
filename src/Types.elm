@@ -95,3 +95,9 @@ unitPeriod u =
            )
         ++ ") "
                 
+formatYear : Int -> String
+formatYear y =
+    if y > 0 then
+      String.fromInt y
+    else
+      (String.fromInt (abs y)) ++ " B.C."
