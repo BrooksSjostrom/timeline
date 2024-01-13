@@ -50,10 +50,6 @@ type Unit
     | IV
     | V
     | VI
-    | VII
-    | VIII
-    | IX
-    | X
 
 
 -- Not great that this is needed
@@ -61,7 +57,7 @@ type Unit
 
 unitList : List Unit
 unitList =
-    [ I, II, III, IV, V, VI, VII, VIII, IX, X]
+    [ I, II, III, IV, V, VI]
 
 
 unitToStr : Unit -> String
@@ -73,28 +69,18 @@ unitToStr u =
         IV -> "IV"
         V -> "V"
         VI -> "VI"
-        VII -> "VII"
-        VIII -> "VIII"
-        IX -> "IX"
-        X -> "X"
 
 -- gives a (string) of the start and end dates of the unit
 unitPeriod : Unit -> String
 unitPeriod u =
-    " (" ++ (case u of
-                I  -> "17th Century"
-                II -> "Period of Salutary Neglect"
-                III -> "Federalist Period"
-                IV -> "1800-1840"
-                V -> "Civil War" 
-                VI -> "Reconstruction"
-                VII -> "Gilded Age"
-                VIII -> "Age of Empire"
-                IX -> "Progressive Era"
-                X -> "New Deal"
-           )
-        ++ ") "
-                
+    case u of
+        I  -> "Antiquity in Africa & China"
+        II -> "Late Rome"
+        III -> "Early Middle Ages"
+        IV -> "Central Middle Ages"
+        V -> "High Middle Ages"
+        VI -> "Late Middle Ages & Early Modern World"
+
 formatYear : Int -> String
 formatYear y =
     if y > 0 then

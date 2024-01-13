@@ -245,7 +245,7 @@ viewUnitSelect mod unit =
             , checked (List.member unit mod)
             ]
             []
-        , text ("Unit " ++ unitToStr unit ++ unitPeriod unit)
+        , text (unitPeriod unit)
         ]
 
 
@@ -308,12 +308,12 @@ viewTimeline listEvents =
         , style "align-items" "center"
         --, style "flex-wrap" "wrap"
         ]
-        
+
     (listInterleave
          selectionButtons
          placedDates
     )
-    
+
 
 
 viewMoreInfo : Event -> Html Msg
