@@ -6711,7 +6711,7 @@ var $author$project$Main$viewUnitSelect = F2(
 						]),
 					_List_Nil),
 					$elm$html$Html$text(
-					'Unit ' + $author$project$Types$unitToStr(unit))
+					'Unit ' + $author$project$Types$unitToStr(unit) + "hello")
 				]));
 	});
 var $author$project$Main$viewSetup = function (model) {
