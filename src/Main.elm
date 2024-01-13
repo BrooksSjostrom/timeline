@@ -368,7 +368,7 @@ viewEnded i listEvents =
                     div [ style "border-style" "solid" ]
                         [ h3 [] [ text e.name ]
                         , div [] [ text (formatYear e.date) ]
-                        , button [ onClick (LearnMore e) ] [ text "learn more" ]
+                        --, button [ onClick (LearnMore e) ] [ text "learn more" ]
                         ]
                 )
                 (List.sortBy .date listEvents)
