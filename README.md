@@ -1,4 +1,6 @@
 # timeline
-A elm webapp for a APUSH timeline study 
+A elm webapp for a Medieval World History timeline study
 
-Play at https://tglenhab.github.io/timeline/
+Forked from https://github.com/tglenhab/timeline
+
+Play at https://brookssjostrom.github.io/timeline/
