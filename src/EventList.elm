@@ -28,7 +28,12 @@ unitDict =
           )
         , ( "II"
           , [ Event "Battle of Mulvian Bridge/Conversion of Constantine to Christianity" 312 "No description."
+            , Event "Constantine renames Byzantium as Constantinople" 330 "No description."
+            , Event "Visigoths enter Western Empire" 395 "No description."
             , Event "Visigoths sack Rome" 410 "No description."
+            , Event "Visigoths establish kingdom in Spain" 414 "No description."
+            , Event "Vandals establish kingdom in North Africa" 429 "No description."
+            , Event "Vandals sack Rome" 455 "No description."
             ]
           )
         , ( "VI"
@@ -39,6 +44,9 @@ unitDict =
         , ( "I"
           , [ Event "Assyrians invade lower Egypt. Kush retreats southward." -666 "No description."
             , Event "First Emperor of Qin Dynasty (Shihuangdi) dies – popular rebellion ensues" -210 "No description."
+            , Event "Han Dynasty begins" -206 "No description."
+            , Event "Emperor Han Wudi establishes Imperial Academy" -124 ""
+            , Event "Han Dynasty ends" 220 "No description."
             ]
           )
         , ( "IV"

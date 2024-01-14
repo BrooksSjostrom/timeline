@@ -2,8 +2,9 @@ module Main exposing (..)
 
 import Browser
 import Dict
-import Element
+import Element exposing (layout, html)
 import Element.Input as Input
+import Element.Background as Background
 import EventList exposing (..)
 import Html exposing (Html, br, button, div, h1, h2, h3, input, span, text)
 import Html.Attributes exposing (checked, placeholder, style, type_, value)
@@ -296,7 +297,7 @@ viewTimeline listEvents =
                         , style "border-style" "solid"]
                         [ h3 [] [ text e.name ]
                         , div [] [ text (formatYear e.date) ]
-                        , button [ onClick (LearnMore e) ] [ text "learn more" ]
+                        --, button [ onClick (LearnMore e) ] [ text "learn more" ]
                         ]
                 )
                 listEvents
