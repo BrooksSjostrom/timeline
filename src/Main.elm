@@ -180,7 +180,10 @@ view : Model -> Browser.Document Msg
 view model =
     Browser.Document
         "Timeline"
-        [ div [ style "margin" "20px" ]
+        [ div 
+            [ style "margin" "20px" 
+            , style "font-family" "sans-serif"
+            ]
             [ case model of
                 Setup m ->
                     viewSetup m
