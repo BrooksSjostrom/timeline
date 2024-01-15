@@ -35,8 +35,13 @@ unitDict =
             ]
           )
         , ( "II"
-          , [ Event "Battle of Mulvian Bridge/Conversion of Constantine to Christianity" 312 "No description."
+          , [ Event "Diocletian becomes Emperor" 284 "No description."
+            , Event "Diocletian divides empire" 293 "No description."
+            , Event "Diocletian abdicates in East" 305 "No description."
+            , Event "Battle of Mulvian Bridge/Conversion of Constantine to Christianity" 312 "No description."
             , Event "Constantine renames Byzantium as Constantinople" 330 "No description."
+            , Event "Death of Constantine" 337 "No description."
+            , Event "Ostrogoths are subjugated by the Huns" 375 "No description."
             , Event "Visigoths enter Western Empire" 395 "No description."
             , Event "Visigoths sack Rome" 410 "No description."
             , Event "Visigoths establish kingdom in Spain" 414 "No description."
@@ -68,6 +73,12 @@ unitDict =
             , Event "Last Carolingian to rule East Frankish Kingdom (Lewis the Child) dies" 911 "No description."
             , Event "Henry I, Duke of Saxony, elected king of East Frankish Kingdom" 918 "No description."
             , Event "Otto I (Otto the Great) succeeds his father Henry I as king, restoring hereditary monarchy." 936 "No description."
+            , Event "Coronation of Otto I as Emperor by Pope John XII" 962 "No description."
+            , Event "Death of Otto I, Otto II becomes East Frankish King" 973 "No description."
+            , Event "Death of Otto II, Otto III becomes East Frankish King" 983 "No description."
+            , Event "Ibn Sina born" 980 "No description."
+            , Event "Last Carolingian to rule West Frankish kingdom (Louis V) dies, first Capetian (Hugh Capet) elected" 987 "No description."
+            
             ]
           )
         , ( "V"
